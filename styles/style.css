@@ -7,7 +7,6 @@
 section{
     width: 1100px;
     margin: 50px auto;
-    border: 2px solid red;
 }
 /* Nav-part */
 nav{
@@ -127,7 +126,9 @@ nav a button{
     margin: 30px 0;
 }
 /* Inspire section  */
-
+#inspire{
+    border-radius: 10px;
+}
  .vdo-part{
     text-align: center;
  }
@@ -136,8 +137,10 @@ nav a button{
     margin-top: 40px;
     margin-bottom: 20px;
 }
-
 /* Target section  */
+#target{
+    border-radius: 10px;
+}
 .card{
     display: flex;
     justify-content: space-evenly;
@@ -220,6 +223,7 @@ input[type="submit"]{
     border-radius: 10px;
     margin-top: 50px;
     font-weight: 700;
+    background-color: white;
 }
 /* Footer ? */
 footer{
@@ -228,7 +232,6 @@ footer{
     justify-content: space-between;
     background-color: rgba(13, 19, 33, 0.03);
     padding: 15px;
-    border: 1px solid red;
 }
 footer .copyright{
     margin-left: 100px;
