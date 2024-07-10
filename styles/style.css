@@ -66,6 +66,10 @@ nav a button{
     text-align: center;
 }
 /* DEVELOPMENT SECTION  */
+#development{
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 10px;
+}
 .writing-part{
     display: flex;
     flex-direction: column;
@@ -84,6 +88,16 @@ nav a button{
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+}
+.box-bg{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    border-radius: 10px;
+    padding: 10px 20px 0;
+}
+.middle-box-bg{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    border-radius: 10px;
+    padding: 10px 20px 0;
 }
 /* box-part */
 .box{
@@ -113,6 +127,15 @@ nav a button{
     margin: 30px 0;
 }
 /* Inspire section  */
+
+ .vdo-part{
+    text-align: center;
+ }
+.vdo-part iframe{
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 /* Target section  */
 .card{
@@ -150,4 +173,48 @@ nav a button{
 }
 .java{
     background-color: rgba(255, 223, 0, 0.05);
+}
+/* SUPPORT SECTION  */
+#support{
+    background-image: url(../assets/handshake.jpg);
+    background-size: 1100px 400px;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    height: 400px;
+}
+.hero-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.support-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.support-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+input[type="text"]{
+    font-size: 15px;
+    padding: 10px;
+    width: 350px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+}
+input[type="submit"]{
+    font-size: 15px;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: 700;
 }
