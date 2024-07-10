@@ -68,6 +68,8 @@ nav a button{
 #development{
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 10px;
+    height: 1400px;
+    padding-top: 40px;
 }
 .writing-part{
     display: flex;
